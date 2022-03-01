@@ -10,7 +10,8 @@ public class MyConstants {
 
     public static final String PREF_NAME_GLOBAL = "NoFoodWaste";
 
-    public static final String URL_ROOT = "http://192.168.117.235:8080/";
+    //public static final String URL_ROOT = "http://192.168.117.235:8080/";
+    public static final String URL_ROOT = "http://192.168.1.6:8080/";
 
     public static final String FROM_ACTIVITY = "FromActivity";
     public static final String KEY_DONOR = "Donor";
