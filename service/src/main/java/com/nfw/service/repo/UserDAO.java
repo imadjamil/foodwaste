@@ -21,7 +21,7 @@ public class UserDAO extends AbstractDAO<User> {
     }
 
     public List<User> findAll() {
-        return list(namedQuery("user.findAll"));
+        return list(namedTypedQuery("user.findAll"));
     }
 
 }

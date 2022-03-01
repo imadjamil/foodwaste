@@ -21,7 +21,7 @@ public class ConsumerDAO extends AbstractDAO<FoodConsumer> {
     }
 
     public List<FoodConsumer> findAll() {
-        return list(namedQuery("consumer.findAll"));
+        return list(namedTypedQuery("consumer.findAll"));
     }
 
 }

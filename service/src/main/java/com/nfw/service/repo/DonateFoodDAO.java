@@ -21,7 +21,7 @@ public class DonateFoodDAO extends AbstractDAO<DonateFood> {
     }
 
     public List<DonateFood>     findAll() {
-        return list(namedQuery("donate.findAll"));
+        return list(namedTypedQuery("donate.findAll"));
     }
 
 }
